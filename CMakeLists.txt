@@ -10,7 +10,7 @@ set(CMAKE_AUTOMOC ON)
 find_package(Qt6 REQUIRED COMPONENTS Widgets)
 
 add_executable(CppIDE
-        main.cpp
+        src/main.cpp
 )
 
 target_link_libraries(CppIDE PRIVATE Qt6::Widgets)
