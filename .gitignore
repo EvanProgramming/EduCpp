@@ -1,0 +1,26 @@
+# JetBrains IDE
+.idea/
+*.iml
+
+# CMake build directories
+cmake-build-*/
+build/
+
+# Compiled binaries
+*.exe
+*.dll
+*.so
+*.dylib
+*.o
+*.obj
+*.a
+*.lib
+
+# Qt generated files
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+
+# System files
+.DS_Store
+Thumbs.db
